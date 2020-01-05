@@ -7,8 +7,7 @@ if sys.argv[1] == "-nish" and sys.argv[3] == "-qanak":
     range_end = int((10**i)-1)
     q = int(sys.argv[4])
     if q == 0:
-        b = -1
-        while b < q:
+        while True:
             print(str(randint(range_start, range_end)) + " ")
     else:
         b = 0
